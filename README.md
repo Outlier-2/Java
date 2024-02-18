@@ -32,8 +32,8 @@ A warehouse of records for individual items / 一个存放个人Java项目的仓
 
 # Development specification / 开发规范
 
-| 标题                            | 描述                                                 | 文件                                                              |
-|-------------------------------|----------------------------------------------------|-----------------------------------------------------------------|
+| 标题                            | 描述                                                 | 文件                                                            |
+|-------------------------------|----------------------------------------------------|---------------------------------------------------------------|
 | submitTheSpecification / 提交规范 | DescribeTheSpecificationForGitCommits / 描述git提交的规范 | [提交规范](Readme/DescribeTheSpecificationForGitCommitsReadme.md) |
 | iconIntroduction / 图标介绍       | IntroIcon / 介绍图标                                   | [图标介绍](Readme/Icon/IconZH.md)                                 |
  
