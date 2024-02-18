@@ -1,6 +1,6 @@
 # Java
 
-A warehouse of records for individual items / 一个存放个人java项目的仓库
+A warehouse of records for individual items / 一个存放个人Java项目的仓库
 
 # 项目列表
 
