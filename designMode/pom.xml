@@ -13,6 +13,7 @@
   <modules>
     <module>behaviorType</module>
     <module>solid</module>
+    <module>createType</module>
   </modules>
 
   <properties>
@@ -21,24 +22,32 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <spring.boot.version>2.7.12</spring.boot.version>
     <junit.version>4.12</junit.version>
+    <lombok.version>1.18.24</lombok.version>
   </properties>
 
 
-  <dependencyManagement>
-    <dependencies>
-      <dependency>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-dependencies</artifactId>
-        <version>${spring.boot.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>junit</groupId>
-        <artifactId>junit</artifactId>
-        <version>${junit.version}</version>
-        <scope>test</scope>
-      </dependency>
-    </dependencies>
+<!--  <dependencyManagement>-->
+<!--    <dependencies>-->
+<!--      <dependency>-->
+<!--        <groupId>org.springframework.boot</groupId>-->
+<!--        <artifactId>spring-boot-dependencies</artifactId>-->
+<!--        <version>${spring.boot.version}</version>-->
+<!--      </dependency>-->
+<!--      &lt;!&ndash; https://mvnrepository.com/artifact/org.projectlombok/lombok &ndash;&gt;-->
+<!--      <dependency>-->
+<!--        <groupId>org.projectlombok</groupId>-->
+<!--        <artifactId>lombok</artifactId>-->
+<!--        <version>${lombok.version}</version>-->
+<!--      </dependency>-->
 
-  </dependencyManagement>
+<!--      <dependency>-->
+<!--        <groupId>junit</groupId>-->
+<!--        <artifactId>junit</artifactId>-->
+<!--        <version>${junit.version}</version>-->
+<!--        <scope>test</scope>-->
+<!--      </dependency>-->
+<!--    </dependencies>-->
+
+<!--  </dependencyManagement>-->
 
 </project>
