@@ -12,6 +12,7 @@
 
   <modules>
     <module>behaviorType</module>
+    <module>solid</module>
   </modules>
 
   <properties>
