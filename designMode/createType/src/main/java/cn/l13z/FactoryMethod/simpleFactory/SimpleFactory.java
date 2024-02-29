@@ -25,6 +25,9 @@ class ConcreteProductB implements Product {
     }
 }
 
+/**
+ * @author AlfredOrlando
+ */
 public class SimpleFactory {
     public  static Product createProduct(String type) {
         switch (type) {
