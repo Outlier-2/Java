@@ -19,3 +19,9 @@
 ## 方法注释 / MethodNotes
 
 - 使用EasyJavaDoc / Use EasyJavaDoc
+  ```
+  /**
+  * @param order {@link Order}
+  * @return {@link String}
+  */
+  ```

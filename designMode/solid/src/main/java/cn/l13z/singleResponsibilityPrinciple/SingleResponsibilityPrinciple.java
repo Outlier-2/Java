@@ -17,6 +17,9 @@ class CarRadio {
     }
 }
 
+/**
+ * @author AlfredOrlando
+ */
 public class SingleResponsibilityPrinciple {
 
     public static void main(String[] args) {

@@ -15,6 +15,9 @@ class Penguin extends Bird {
     }
 }
 
+/**
+ * @author AlfredOrlando
+ */
 public class LiskovSubstitutionPattern {
 
     public static void main(String[] args) {

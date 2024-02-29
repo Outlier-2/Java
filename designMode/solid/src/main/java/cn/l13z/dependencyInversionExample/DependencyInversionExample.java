@@ -9,6 +9,7 @@ interface Logger {
 // 低层模块，具体实现类
 class FileLogger implements Logger {
 
+    @Override
     public void log(String message) {
         // 文件日志记录逻辑
         System.out.println("Logging to file: " + message);
@@ -17,6 +18,7 @@ class FileLogger implements Logger {
 
 class ConsoleLogger implements Logger {
 
+    @Override
     public void log(String message) {
         // 控制台日志记录逻辑
         System.out.println("Logging to console: " + message);
@@ -32,12 +34,25 @@ class LogManager {
         this.logger = logger;
     }
 
+
     void logMessage(String message) {
         this.logger.log(message);
     }
 }
 
-// 使用示例
+/**
+ * &#064;Project: solid <br>
+ * &#064;ClassName:     DependencyInversionExample.java <br>
+ * @author AlfredOrlando <br>
+ * &#064;Created:  ${YEAR}-${MONTH}-${DAY} ${HOUR}:${MINUTE} <br>
+ * &#064;Description: ${DESCRIPTION} <br>
+ *
+ * &#064;Modification History: <br>
+ * ${DATE} ${USER} ${DESCRIPTION} <br>
+ * ${DATE} ${USER} ${DESCRIPTION} <br>
+ */
+
+ // 使用示例
 public class DependencyInversionExample {
 
     public static void main(String[] args) {

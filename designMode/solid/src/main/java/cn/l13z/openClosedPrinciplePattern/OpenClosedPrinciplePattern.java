@@ -22,6 +22,9 @@ class Square extends Shape {
     }
 }
 
+/**
+ * @author AlfredOrlando
+ */
 public class OpenClosedPrinciplePattern {
 
     public static void main(String[] args) {

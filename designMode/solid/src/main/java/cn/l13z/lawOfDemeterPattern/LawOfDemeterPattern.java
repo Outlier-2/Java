@@ -27,6 +27,10 @@ class Customer {
         this.orderService = orderService;
     }
 
+    /**
+     * @param order {@link Order}
+     * @return {@link String}
+     */
     String viewOrderDetails(Order order) {
         return this.orderService.getOrderDetails(order);
     }
@@ -34,6 +38,9 @@ class Customer {
 
 
 
+/**
+ * @author AlfredOrlando
+ */
 public class LawOfDemeterPattern {
 
     public static void main(String[] args) {
