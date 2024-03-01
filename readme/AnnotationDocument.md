@@ -4,7 +4,6 @@
 
 ```
 /**
-* &#064;Project: ${PRODUCT_NAME}
 * &#064;ClassName:     ${NAME}.java <br>
 * @author ${USER} <br>
 * &#064;Created:  ${YEAR}-${MONTH}-${DAY} ${HOUR}:${MINUTE} <br>
