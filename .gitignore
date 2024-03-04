@@ -1,1 +1,4 @@
-/.idea
+.idea
+dataStructure
+/dataStructure/linkList/*
+/dataStructure/**/
