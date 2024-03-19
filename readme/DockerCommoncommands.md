@@ -17,3 +17,5 @@ docker ps     #查看正在运行的所有镜像
 docker ps -a    #查看所有发布的镜像
 
 docker rm <image>   #删除执行已发布的镜像
+
+docker start <容器ID> #启动存在的容器
