@@ -23,7 +23,7 @@ class Computer {
 
 class ConcreteComputerBuilder implements ComputerBuilder {
 
-    private Computer computer = new Computer();
+    private final Computer computer = new Computer();
 
     @Override
     public void buildCpu() {
@@ -48,7 +48,7 @@ class ConcreteComputerBuilder implements ComputerBuilder {
 
 class ComputerDirector {
 
-    private ComputerBuilder computerBuilder;
+    private final ComputerBuilder computerBuilder;
 
     public ComputerDirector(ComputerBuilder computerBuilder) {
         this.computerBuilder = computerBuilder;

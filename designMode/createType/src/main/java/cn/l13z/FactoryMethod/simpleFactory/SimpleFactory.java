@@ -29,7 +29,8 @@ class ConcreteProductB implements Product {
  * @author AlfredOrlando
  */
 public class SimpleFactory {
-    public  static Product createProduct(String type) {
+
+    static Product createProduct(String type) {
         switch (type) {
             case "A":
                 return new ConcreteProductA();
@@ -43,7 +44,8 @@ public class SimpleFactory {
 }
 
 // 客户端代码
- class Client {
+class Client {
+
     public static void main(String[] args) {
         Product productA = SimpleFactory.createProduct("A");
         Product productB = SimpleFactory.createProduct("B");
