@@ -44,12 +44,6 @@ class LogManager {
  * &#064;Project: solid <br>
  * &#064;ClassName:     DependencyInversionExample.java <br>
  * @author AlfredOrlando <br>
- * &#064;Created:  ${YEAR}-${MONTH}-${DAY} ${HOUR}:${MINUTE} <br>
- * &#064;Description: ${DESCRIPTION} <br>
- *
- * &#064;Modification History: <br>
- * ${DATE} ${USER} ${DESCRIPTION} <br>
- * ${DATE} ${USER} ${DESCRIPTION} <br>
  */
 
  // 使用示例
