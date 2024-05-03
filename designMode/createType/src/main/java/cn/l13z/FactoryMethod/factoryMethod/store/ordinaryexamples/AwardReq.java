@@ -1,4 +1,4 @@
-package cn.l13z.FactoryMethod.simpleFactory.store.ordinaryexamples;
+package cn.l13z.FactoryMethod.factoryMethod.store.ordinaryexamples;
 
 import java.util.Map;
 import lombok.Data;

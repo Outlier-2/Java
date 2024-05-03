@@ -1,10 +1,10 @@
-package cn.l13z.FactoryMethod.simpleFactory.store.ordinaryexamples;
+package cn.l13z.FactoryMethod.factoryMethod.store.ordinaryexamples;
 
-import cn.l13z.FactoryMethod.simpleFactory.store.base.card.IQiYiCardService;
-import cn.l13z.FactoryMethod.simpleFactory.store.base.coupon.CouponResult;
-import cn.l13z.FactoryMethod.simpleFactory.store.base.coupon.CouponService;
-import cn.l13z.FactoryMethod.simpleFactory.store.base.goods.DeliverReq;
-import cn.l13z.FactoryMethod.simpleFactory.store.base.goods.GoodsService;
+import cn.l13z.FactoryMethod.factoryMethod.store.base.card.IQiYiCardService;
+import cn.l13z.FactoryMethod.factoryMethod.store.base.coupon.CouponResult;
+import cn.l13z.FactoryMethod.factoryMethod.store.base.coupon.CouponService;
+import cn.l13z.FactoryMethod.factoryMethod.store.base.goods.DeliverReq;
+import cn.l13z.FactoryMethod.factoryMethod.store.base.goods.GoodsService;
 import com.alibaba.fastjson.JSON;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

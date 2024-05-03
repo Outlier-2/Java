@@ -1,7 +1,7 @@
 package cn.l13z.FactoryMethod.simpleFactory.Stroe.storeFactory;
 
-import cn.l13z.FactoryMethod.simpleFactory.store.storeFactory.ICommodity;
-import cn.l13z.FactoryMethod.simpleFactory.store.storeFactory.StoreFactory;
+import cn.l13z.FactoryMethod.factoryMethod.store.storeFactory.ICommodity;
+import cn.l13z.FactoryMethod.factoryMethod.store.storeFactory.StoreFactory;
 import java.util.HashMap;
 import java.util.Map;
 import org.junit.Test;

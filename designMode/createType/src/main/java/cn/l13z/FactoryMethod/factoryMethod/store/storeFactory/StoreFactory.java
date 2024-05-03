@@ -1,8 +1,8 @@
-package cn.l13z.FactoryMethod.simpleFactory.store.storeFactory;
+package cn.l13z.FactoryMethod.factoryMethod.store.storeFactory;
 
-import cn.l13z.FactoryMethod.simpleFactory.store.storeFactory.impl.CardCommodityService;
-import cn.l13z.FactoryMethod.simpleFactory.store.storeFactory.impl.CouponCommodityService;
-import cn.l13z.FactoryMethod.simpleFactory.store.storeFactory.impl.GoodsCommodityService;
+import cn.l13z.FactoryMethod.factoryMethod.store.storeFactory.impl.CardCommodityService;
+import cn.l13z.FactoryMethod.factoryMethod.store.storeFactory.impl.CouponCommodityService;
+import cn.l13z.FactoryMethod.factoryMethod.store.storeFactory.impl.GoodsCommodityService;
 
 /**
  * ClassName: StoreFactory.java <br>

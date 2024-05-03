@@ -1,4 +1,4 @@
-package cn.l13z.FactoryMethod.simpleFactory.store.base.coupon;
+package cn.l13z.FactoryMethod.factoryMethod.store.base.coupon;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

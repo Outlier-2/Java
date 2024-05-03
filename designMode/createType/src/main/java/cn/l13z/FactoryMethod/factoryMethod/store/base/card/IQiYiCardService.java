@@ -1,4 +1,4 @@
-package cn.l13z.FactoryMethod.simpleFactory.store.base.card;
+package cn.l13z.FactoryMethod.factoryMethod.store.base.card;
 
 /**
  * ClassName: IQiYiCardService.java <br>

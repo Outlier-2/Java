@@ -1,4 +1,4 @@
-package cn.l13z.FactoryMethod.simpleFactory.store.base.goods;
+package cn.l13z.FactoryMethod.factoryMethod.store.base.goods;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

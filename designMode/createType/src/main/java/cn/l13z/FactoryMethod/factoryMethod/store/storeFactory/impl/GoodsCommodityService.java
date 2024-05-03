@@ -1,8 +1,8 @@
-package cn.l13z.FactoryMethod.simpleFactory.store.storeFactory.impl;
+package cn.l13z.FactoryMethod.factoryMethod.store.storeFactory.impl;
 
-import cn.l13z.FactoryMethod.simpleFactory.store.base.goods.DeliverReq;
-import cn.l13z.FactoryMethod.simpleFactory.store.base.goods.GoodsService;
-import cn.l13z.FactoryMethod.simpleFactory.store.storeFactory.ICommodity;
+import cn.l13z.FactoryMethod.factoryMethod.store.storeFactory.ICommodity;
+import cn.l13z.FactoryMethod.factoryMethod.store.base.goods.DeliverReq;
+import cn.l13z.FactoryMethod.factoryMethod.store.base.goods.GoodsService;
 import com.alibaba.fastjson.JSON;
 import java.util.Map;
 import org.slf4j.Logger;

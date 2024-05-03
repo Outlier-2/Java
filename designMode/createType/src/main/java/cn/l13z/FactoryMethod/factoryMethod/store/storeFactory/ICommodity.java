@@ -1,4 +1,4 @@
-package cn.l13z.FactoryMethod.simpleFactory.store.storeFactory;
+package cn.l13z.FactoryMethod.factoryMethod.store.storeFactory;
 
 import java.util.Map;
 

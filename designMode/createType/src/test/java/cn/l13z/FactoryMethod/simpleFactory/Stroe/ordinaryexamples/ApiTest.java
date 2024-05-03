@@ -1,8 +1,8 @@
 package cn.l13z.FactoryMethod.simpleFactory.Stroe.ordinaryexamples;
 
-import cn.l13z.FactoryMethod.simpleFactory.store.ordinaryexamples.AwardReq;
-import cn.l13z.FactoryMethod.simpleFactory.store.ordinaryexamples.AwardRes;
-import cn.l13z.FactoryMethod.simpleFactory.store.ordinaryexamples.PrizeController;
+import cn.l13z.FactoryMethod.factoryMethod.store.ordinaryexamples.AwardReq;
+import cn.l13z.FactoryMethod.factoryMethod.store.ordinaryexamples.AwardRes;
+import cn.l13z.FactoryMethod.factoryMethod.store.ordinaryexamples.PrizeController;
 import com.alibaba.fastjson.JSON;
 import java.util.HashMap;
 import org.junit.Test;
