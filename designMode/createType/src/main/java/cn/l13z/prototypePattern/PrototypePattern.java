@@ -7,7 +7,6 @@ interface Shape extends Cloneable {
     Shape clone();
 }
 
-@SuppressWarnings("unused")
 class Rectangle implements Shape {
 
     @Override
@@ -25,7 +24,6 @@ class Rectangle implements Shape {
         return new Rectangle();
     }
 }
-@SuppressWarnings("unused")
 class Circle implements Shape {
 
     @Override
