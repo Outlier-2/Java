@@ -1,24 +1,56 @@
 package cn.l13z.singletonPattern;
 
-import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
-
-/**
- * ClassName:     SingletonPattern.java <br>
- *
- * @author AlfredOrlando <br>
- * <p>
- * <p>
- * Created:  2024-04-05 05:57 <br> Description: 单例模式 <br>
- * <p>
- * <p>
- * Modification History: <br> - 2024/4/5 AlfredOrlando 单例模式 <br>
- */
-@SuppressWarnings("unused")
 public class SingletonPattern {
 
-    public static Map<String, String> cache = new ConcurrentHashMap<>();
+    class LazySigleton {
 
+        private SingletonPattern instance;
+
+        private LazySigleton() {
+            // 私有化构造函数，防止实例化
+        }
+
+        public SingletonPattern getInstance() {
+            if (instance == null) {
+                instance = new SingletonPattern();
+            }
+            return instance;
+        }
+
+    }
+
+    class HungySingletonPattern {
+        private HungySingletonPattern instance1 = new HungySingletonPattern();
+
+        private HungySingletonPattern() {
+        }
+
+        public HungySingletonPattern getInstance() {
+            return instance1;
+
+        }
+    }
+
+    class DoubleCheckSingletonPattern {
+        private DoubleCheckSingletonPattern instance2;
+
+        private DoubleCheckSingletonPattern() {
+
+        }
+
+        public DoubleCheckSingletonPattern getInstance() {
+            if (instance2 == null) {
+                synchronized (DoubleCheckSingletonPattern.class) {
+                    if (instance2 == null) {
+                        instance2 = new DoubleCheckSingletonPattern();
+                    }
+                }
+            }
+            return instance2;
+        }
+    }
+
+    public static void main(String[] args) {
+
+    }
 }
-
-
