@@ -6,24 +6,27 @@
  
 ## 基本数据结构
  - 队列
-   - ...
+   - 循环队列
+   - 双向队列 (未实现)
  - 栈
  - 哈希表
  - 树
   - ... 
  - 堆
- - 跳表
- - 字符串
+ - 跳表 (未实现)
+ - 字符串 （未实现）
 
 ## 基本操作
 遍历 + 访问 -> 增删改查 -> 线性的和非线性
 
-线性：
-`    void traverse(int[] arr){
+``` java
+// 线性：
+void traverse(int[] arr){
         for (int i = 0; i < arr.length; i++){}
 }`
-迭代递归：
- 单链表
+
+// 迭代递归：
+// 单链表
 `void traverse(ListNode head) {
     for (ListNode p = head; p != null; p = p.next) {
     // 迭代访问 p.val
@@ -34,7 +37,7 @@
     // 递归访问 head.val
     traverse(head.next);
 }`
-  二叉树：
+// 二叉树：
 `/* 基本的二叉树节点 */
 class TreeNode {
 int val;
@@ -46,13 +49,15 @@ traverse(root.left);
 traverse(root.right);
 }`
 
-多查树：
-`   class TreeNode{
+// 多查树：
+class TreeNode{
         int val;
         reeNode[] children;
 }
-``
+
 void traverse(TreeNode root){
     for (TreeNode child : root.children){
         traverse(child);
-}`
+}
+}
+```
