@@ -1,2 +1,4 @@
 .idea
 
+./algorithm/target
+./designMode/**/target
