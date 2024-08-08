@@ -2,7 +2,9 @@ package cn.l13z.algorithm.dataStructure;
 import java.util.*;
 
 // 使用数组实现栈
+@SuppressWarnings("unchecked")
 class ArrayStack<E> {
+    @SuppressWarnings("rawtypes")
     private ArrayList<E> list = new ArrayList();
 
     // 插入
@@ -32,6 +34,7 @@ class ArrayStack<E> {
  * Stack 链表实现
  */
 class ListNodeStack<E> {
+    @SuppressWarnings({ "rawtypes", "unchecked" })
     private LinkedList<E> list = new LinkedList();
  
     public void push(E e) {
