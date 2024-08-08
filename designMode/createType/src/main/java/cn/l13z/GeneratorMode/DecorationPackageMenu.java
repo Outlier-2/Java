@@ -22,6 +22,7 @@ public class DecorationPackageMenu implements IMenu {
     private BigDecimal area;  // 面积
     private String grade;     // 装修等级；豪华欧式、轻奢田园、现代简约
 
+    @SuppressWarnings("unused")
     private DecorationPackageMenu() {
     }
 
@@ -56,6 +57,7 @@ public class DecorationPackageMenu implements IMenu {
 
     public String getDetail() {
 
+        @SuppressWarnings("deprecation")
         StringBuilder detail = new StringBuilder("\r\n-------------------------------------------------------\r\n" +
             "装修清单" + "\r\n" +
             "套餐等级：" + grade + "\r\n" +
