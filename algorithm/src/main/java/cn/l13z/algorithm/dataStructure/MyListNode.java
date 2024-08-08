@@ -10,6 +10,7 @@ public class MyListNode<E> {
     private static class Node<E> {
         E val;
         Node<E> next;
+        @SuppressWarnings("unused")
         Node<E> prev;
 
         Node(E val) {
