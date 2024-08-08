@@ -28,7 +28,9 @@ class ArrayQueue<E> {
     }
 }
 
+@SuppressWarnings("unchecked")
 class ListNodeQueuek<E> {
+    @SuppressWarnings("rawtypes")
     private LinkedList<E> list = new LinkedList();
 
     public void push(E e) {
