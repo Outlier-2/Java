@@ -1,4 +1,4 @@
-package cn.l13z.algorithm.dataStructure;
+package cn.l13z.DataStructureAndAlgorithms.dataStructure;
 
 import java.util.LinkedList;
 

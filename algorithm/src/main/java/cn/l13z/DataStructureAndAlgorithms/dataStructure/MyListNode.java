@@ -1,4 +1,4 @@
-package cn.l13z.algorithm.dataStructure;
+package cn.l13z.DataStructureAndAlgorithms.dataStructure;
 
 public class MyListNode<E> {
     // 虚拟的头节点与尾节点
