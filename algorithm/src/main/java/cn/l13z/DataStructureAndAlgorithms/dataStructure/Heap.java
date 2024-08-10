@@ -77,12 +77,12 @@ class SimpleHeap {
     }
 }
 
-public class heap<T> {
+public class Heap<T> {
     private T[] heap;
     private int size;
     private final Comparator<? super T> comparator;
 
-    public heap(int capacity, Comparator<? super T> comparator) {
+    public Heap(int capacity, Comparator<? super T> comparator) {
         heap = (T[]) new Object[capacity + 1]; // 0 不用
         size = 0;
         this.comparator = comparator;
