@@ -3,25 +3,27 @@ package cn.l13z.DataStructureAndAlgorithms.dataStructure;
 import java.util.ArrayList;
 import java.util.List;
 
-// 邻接表法与n叉树相同
-// class Vertex {
-//     int id;
-//     Vertex[] neighbors;
-// }
+// 节点
+class Vertex {
+    int id;
+    Vertex[] neighbors;
+}
 
 // public class Graph {
-//     Vertex startNode;
+// Vertex startNode;
 // }
 
 // class GraphMatrix {
-//     boolean[][] matrix;
+// boolean[][] matrix;
 // }
 
+// 邻接表
 class Edge {
     int to;
     int weight;
 }
 
+// List<Edge>[] graph;
 /**
  * Grap inetrface of General method
  */
@@ -73,4 +75,20 @@ class WeightedDigraph {
             }
         }
     }
+
+    // 查，判断两个节点是否相邻，复杂度 O(V)
+    public boolean hasEdge(int from, int to) {
+        for (Edge e : graph[from]) {
+            if (e.to == to) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public List<Edge> neighbors(int v) {
+        return graph[v];
+    }
 }
+
+// BFS/DFS 同Tree
